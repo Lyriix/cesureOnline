@@ -1,0 +1,64 @@
+html{
+    background-color: black;
+}
+
+
+article{
+    margin-top: 15vh;
+    display: flex;
+    flex-flow: column wrap;
+    color: black;
+    background-color: darkgray;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    
+}
+/*
+article p{
+    flex: 1;
+    text-align: center;
+    font-size: 5vh;
+}
+*/
+
+
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#map{
+    flex: 1;
+    display: block;
+}
+
+img{
+       max-width : 70vw;
+    max-height: 80vh;
+    margin-left: 5vw;
+}
+
+article header{
+    background-color: dimgray;
+}
+
+article p{
+    
+}
+
+table{
+    border-collapse: collapse;
+}
+tr{
+    color: white;
+}
+
+td{
+    border: 1px solid white;
+    
+}
+
+th{
+    border: 2px solid white;
+}

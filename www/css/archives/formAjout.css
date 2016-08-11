@@ -1,0 +1,40 @@
+#formulaireStage {
+    display: block;
+    background-color:firebrick;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 8px;
+}
+
+#formulaireStage form p {
+    display: block;
+    text-align: left;
+    background-color: indianred;
+}
+
+#formulaireStage #formulaireAjout {
+    display: inline-block;
+    text-align: left;
+}
+
+#formulaireAjout>input {
+    display: inline;
+    text-align: center;
+    margin-left: 12em;
+    margin-bottom: 8px;
+    font-size: 120%;
+}
+
+#formulaireAjout textarea {
+    display: block;
+    text-align: left;
+    min-width: 40vw;
+    min-height: 30vh;
+    margin-top: -2.5em;
+    margin-left: 28em;
+}
+
+#formulaireAjout #description {
+    
+    margin-bottom: 30px;
+}

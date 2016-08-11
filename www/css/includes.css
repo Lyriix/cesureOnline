@@ -1,0 +1,21 @@
+/*HEADER*/
+
+.bandeau{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    margin : 0;
+    padding: 0;
+    
+}
+
+
+.bandeau img{
+    flex:1;
+    height: 10vh;
+    margin-left: 40%;
+    
+    
+}
+
+

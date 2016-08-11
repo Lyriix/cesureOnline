@@ -1,0 +1,110 @@
+html{
+    background-color: black;
+}
+.bandeau{
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.bandeau img{
+    height: 4vh;
+}
+
+#logo-website{
+    margin-left: 30vw;
+}
+
+.main-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: firebrick;
+}
+
+.main-nav li{
+    float: left;
+}
+
+.main-nav li a, .dropbtn{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 18px;
+    text-decoration: none;
+    text-align: left;
+    border-right-style:groove;
+    border-right-color: black;
+    list-style-image: url("arrow-down.jpg");
+    
+}
+
+.main-nav li a:hover, .dropdown:hover .dropbtn{
+    background-color:brown;
+    display: block;
+    text-align: left;
+    margin: 0;
+    
+   
+}
+
+.main-nav li .dropdown{
+    display: inline-block;
+    
+    
+}
+
+.dropdown-content {
+    display: none; /*none to hide it in the menu*/
+    position: absolute;
+    background-color: indianred;
+    border-collapse: collapse
+    min-width: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background-color: brown;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline-block;
+}
+
+#info-content{
+    color: white;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    padding-top: 29vh
+   /* height: 50px;*/
+}
+
+#info-content li{
+    display: inline-block;
+    color: white;
+    
+    list-style: none;
+}
+#info-content li a{
+    color : white;
+    text-decoration: none;
+}
+#info-content li a:hover{
+    text-decoration: underline;
+    color: beige;
+}
+
+#info-content nav {
+    background-color: firebrick;
+    padding: 0.1vh;
+}

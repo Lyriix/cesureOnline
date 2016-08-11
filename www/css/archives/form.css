@@ -1,0 +1,23 @@
+#filter-aera {
+    display:block;
+    flex: 1;
+    color: white;
+    background-color: darkred;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+    max-width: 30vw;
+}
+
+
+form p, #filter-aera>p {
+
+    text-align: center;
+    font-size: 1.2em;
+    background-color:firebrick;
+    border-radius: 8px;
+}
+
+
+
+

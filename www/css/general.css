@@ -1,0 +1,171 @@
+/*Général*/
+html,body{
+    background-color: black;
+    height: 100%;
+}
+
+#art_orange{
+    background-image:  url(/www/images/orange.png);
+}
+
+#art_pont{
+    background-image:  url(/www/images/pont.jpg);
+}
+article {
+    display:flex;
+    flex-flow: row wrap;
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    width:100%;
+    height: 100%;
+
+}
+/*Listing*/
+table{
+    color: white;
+    border-collapse: collapse;
+}
+table td, table th{
+    border: 1px solid white;
+}
+
+/*Detail d'une cesure */
+
+/*Large*/
+#art_orange{
+    display: flex; 
+    /*flex-flow: row wrap; */
+    flex-flow:row wrap;
+}
+/* Medium screens */
+@media all and (max-width: 800px) {
+  #art_orange {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    justify-content: space-around;
+  }
+}
+/* Small screens */
+@media all and (max-width: 300px) {
+  #art_orange {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+    #art_pont{
+        
+    }
+}
+#art_orange .detail, #art_orange .real, #art_orange section {
+    flex: 0 1 auto; 
+    
+    background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    margin: auto;
+    position: relative;
+    
+    
+      font-family: Tahoma, Geneva, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 24px;
+  font-weight: bold;
+  color: #09C;
+      text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #999;
+  border: inset 1px solid #333;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+#art_orange .detail{
+    width:90vw;
+    min-height : 10vh;
+}
+#art_orange .rea{
+    width : 40vw;
+    min-height: 5vh; 
+}
+
+
+#art_orange section h1
+{
+    font-size: 18px;
+  font-style: bold;   
+}
+#art_orange section span{
+    font-size: 14px;
+  font-style: italic;
+}
+
+#art_orange section p
+{
+    /*display: block; */
+    font-size: 16px;
+  font-style: bold;
+}
+
+#art_orange  img{
+    border: 3px solid black;
+    border-radius : 10px; 
+    position: relative;
+    right: 50px; 
+    top: 50px; 
+}
+
+
+/*Animation de l'accueil */
+
+#art_orange .accueil li{
+    display: inline;
+}
+
+#art_orange .accueil li a {
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	background: white;
+	padding: 5px 10px;
+	margin: 0 20px;
+    margin-top: 20px;
+	color: #615334;
+	text-decoration:none;
+	line-height: 2.6em;
+	background: -moz-linear-gradient(center bottom , #DACDB1 11%, #F0E8D8 56%) repeat scroll 0 0 #F0E8D8;
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0.3, #DACDB1),color-stop(0.65, #F0E8D8));
+
+	-moz-box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 3px #816F47;
+	-webkit-box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 3px #816F47;
+	box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 3px #816F47;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+#art_orange .accueil li #rose{
+    background: -moz-linear-gradient(center bottom , #FF33CC 11%, #FFB3EC 56%) repeat scroll 0 0 #FFB3EC;
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0.3, #FF33CC),color-stop(0.65, #FFB3EC));
+    -moz-box-shadow: 0 0 65px #FF00BF inset, 0 0 20px #E600AC inset, 0 0 3px #66004D;
+	-webkit-box-shadow: 0 0 65px #FF00BF inset, 0 0 20px #E600AC inset, 0 0 3px #66004D;
+    box-shadow: 0 0 65px #FF00BF inset, 0 0 20px #E600AC inset, 0 0 3px #66004D;
+}
+#art_orange .accueil li #green{
+    background: -moz-linear-gradient(center bottom , #99FF66 11%, #55FF00 56%) repeat scroll 0 0 #55FF00;
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0.3, #55FF00),color-stop(0.65, #55FF00));
+    -moz-box-shadow: 0 0 65px #4CE800 inset, 0 0 20px #2A8000 inset, 0 0 3px #113300;
+	-webkit-box-shadow: 0 0 65px #4CE800 inset, 0 0 20px #2A8000 inset, 0 0 3px #113300;
+    box-shadow: 0 0 65px #4CE800 inset, 0 0 20px #2A8000 inset, 0 0 3px #113300;
+}
+
+#art_orange .accueil a:hover,
+#art_orange .accueil a:focus {
+	transform: scale(1.2);
+	box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
+}
